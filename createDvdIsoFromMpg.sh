@@ -12,6 +12,7 @@ echo creating $base.iso
 . createFolder.sh $base
 . finishFolder.sh $base
 . generateIsoImage.sh $base
+. burnDvd.sh $base
 
 echo "romoving temp data"
 rm ./$base.VOB
