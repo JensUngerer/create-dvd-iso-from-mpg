@@ -1,3 +1,3 @@
 #!/bin/bash
 
-youtube-dl $1 --keep-video
+youtube-dl --output $2 $1 

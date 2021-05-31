@@ -1,4 +1,4 @@
-# Create DVD-ISO from MPG
+# Create DVD-ISO from youtube-url and burning it
 
 ## Downloading
 
@@ -6,7 +6,7 @@
 git clone https://github.com/JensUngerer/create-dvd-iso-from-mpg.git ~/create-dvd-iso-from-mpg
 ```
 
-## Add two lines to path
+## Add two lines to .bashrc
 ```bash
 PATH="~/create-dvd-iso-from-mpg:${PATH}"
 export PATH
@@ -14,7 +14,7 @@ export PATH
 
 ## Usage
 ```bash
-createDvdIsoFromMpg.sh ./my-file.mpg
+downloadConvertAndBurn.sh https://www.youtube.com/watch?v=9uDgJ9_H0gg baseNameForIsoFile
 ```
 
 
